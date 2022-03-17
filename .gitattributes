@@ -1,0 +1,17 @@
+*.java       text diff=java
+*.properties text
+*.xml        text
+
+*.txt        text
+*.md         text
+*.markdown   text
+
+*.sh         text eol=lf
+
+*.class         binary
+*.dll           binary
+*.ear           binary
+*.jar           binary
+*.so            binary
+*.war           binary
+*.jks           binary
