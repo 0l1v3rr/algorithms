@@ -1,15 +1,15 @@
 package com.oliverr.algorithms.sorting;
 
+import java.util.Arrays;
+import java.util.Random;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
-import java.util.Random;
-
-public class BubbleSortTest {
-
-    BubbleSort bs;
+public class QuickSortTest {
+    
+    QuickSort qs;
 
     int[] arr = new int[10];
     int[] arr2 = new int[10];
@@ -18,7 +18,7 @@ public class BubbleSortTest {
 
     @BeforeEach
     public void init() {
-        bs = new BubbleSort();
+        qs = new QuickSort();
         Random r = new Random();
         for(int i = 0; i < 10; i++) {
             int n1 = r.nextInt(1000);
@@ -34,9 +34,9 @@ public class BubbleSortTest {
     }
 
     @Test
-    public void testBubbleSort() {
-        bs.sort(arr);
-        bs.sort(arr2);
+    void testSelectionSort() {
+        qs.sort(arr);
+        qs.sort(arr2);
         Assertions.assertArrayEquals(arrSorted, arr);
         Assertions.assertArrayEquals(arr2Sorted, arr2);
     }

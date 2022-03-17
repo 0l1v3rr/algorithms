@@ -1,6 +1,5 @@
 package com.oliverr.algorithms.sorting;
 
-import com.oliverr.algorithms.util.PrintArray;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -38,8 +37,8 @@ public class InsertionSortTest {
     public void testInsertionSort() {
         is.sort(arr);
         is.sort(arr2);
-        Assertions.assertEquals(PrintArray.stringArray(arrSorted), PrintArray.stringArray(arr));
-        Assertions.assertEquals(PrintArray.stringArray(arr2Sorted), PrintArray.stringArray(arr2));
+        Assertions.assertArrayEquals(arrSorted, arr);
+        Assertions.assertArrayEquals(arr2Sorted, arr2);
     }
 
 }

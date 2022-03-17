@@ -3,8 +3,6 @@ package com.oliverr.algorithms.sorting;
 import java.util.Arrays;
 import java.util.Random;
 
-import com.oliverr.algorithms.util.PrintArray;
-
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -39,9 +37,8 @@ public class MergeSortTest {
     void testSelectionSort() {
         ms.sort(arr);
         ms.sort(arr2);
-        Assertions.assertEquals(PrintArray.stringArray(arrSorted), PrintArray.stringArray(arr));
-        Assertions.assertEquals(PrintArray.stringArray(arr2Sorted), PrintArray.stringArray(arr2));
-  
+        Assertions.assertArrayEquals(arrSorted, arr);
+        Assertions.assertArrayEquals(arr2Sorted, arr2);
     }
 
 }
