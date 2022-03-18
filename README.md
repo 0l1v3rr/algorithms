@@ -3,6 +3,8 @@ My implementation of different Data Structures, Algorithms and simple coding cha
 
 ## Algorithms
 
+### Sorting
+
 - [Bubble Sort](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/sorting/BubbleSort.java)
   - This sorting algorithm repeatedly steps through the array, compares the elements, and swaps them if they are in the wrong order. This is repeated until the array is sorted.
   - **O(n^2)**
@@ -18,3 +20,9 @@ My implementation of different Data Structures, Algorithms and simple coding cha
 - [Quick Sort](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/sorting/QuickSort.java)
   - This algorithm selects a pivot element into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
   - **O(n*log(n))**
+
+### Searching
+
+- [Linear Search](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/searching/LinearSearch.java)
+  -  This searching algorithm sequentially checks each element of the list until a match is found or the whole list has been searched.
+  - **O(n)**
