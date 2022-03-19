@@ -20,6 +20,9 @@ My implementation of different Data Structures, Algorithms and simple coding cha
 - [Quick Sort](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/sorting/QuickSort.java)
   - This algorithm selects a pivot element into two sub-arrays, according to whether they are less than or greater than the pivot. The sub-arrays are then sorted recursively.
   - **O(n*log(n))**
+- [Heap Sort](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/sorting/HeapSort.java)
+  - Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to selection sort where we first find the minimum element and place the minimum element at the beginning. We repeat the same process for the remaining elements.
+  - **O(n*log(n))**
 
 ### Searching
 
