@@ -26,3 +26,6 @@ My implementation of different Data Structures, Algorithms and simple coding cha
 - [Linear Search](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/searching/LinearSearch.java)
   -  This searching algorithm sequentially checks each element of the list until a match is found or the whole list has been searched.
   - **O(n)**
+- [Binary Search](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/searching/BinarySearch.java)
+  - Binary Search is a search algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array. If they are not equal, the half in which the target cannot lie is eliminated and the search continues on the remaining half. If the search ends with the remaining half being empty, the target is not in the array.
+  - **O(log(n))**
