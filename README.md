@@ -32,3 +32,6 @@ My implementation of different Data Structures, Algorithms and simple coding cha
 - [Binary Search](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/searching/BinarySearch.java)
   - Binary Search is a search algorithm that finds the position of a target value within a sorted array. Binary search compares the target value to the middle element of the array. If they are not equal, the half in which the target cannot lie is eliminated and the search continues on the remaining half. If the search ends with the remaining half being empty, the target is not in the array.
   - **O(log(n))**
+- [Jump Search](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/searching/JumpSearch.java)
+  - The jump search is a search algorithm for ordered lists. It works by first checking all items L<sub>km</sub>, where k∈ℕ  and m is the block size, until an item is found that is larger than the search key. To find the exact position of the search key in the list a linear search is performed on the sublist L<sub>[(k-1)m, km]</sub>.
+  - **O(√n)**
