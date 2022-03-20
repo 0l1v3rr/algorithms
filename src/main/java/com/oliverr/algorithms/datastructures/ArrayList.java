@@ -41,17 +41,6 @@ public class ArrayList<T> implements Iterable<T> {
         };
     }
 
-    @Override
-    public String toString() {
-        if(len == 0) return "<>";
-
-        StringBuilder sb = new StringBuilder();
-        sb.append("<");
-        for (int i = 0; i < len - 1; i++) sb.append(arr[i] + ", ");
-        sb.append(arr[len - 1] + ">");
-        return sb.toString();
-    }
-
     public int size() {
         return len;
     }
