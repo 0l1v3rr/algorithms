@@ -35,3 +35,7 @@ My implementation of different Data Structures, Algorithms and simple coding cha
 - [Jump Search](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/searching/JumpSearch.java)
   - The jump search is a search algorithm for ordered lists. It works by first checking all items L<sub>km</sub>, where k∈ℕ  and m is the block size, until an item is found that is larger than the search key. To find the exact position of the search key in the list a linear search is performed on the sublist L<sub>[(k-1)m, km]</sub>.
   - **O(√n)**
+
+## Data Structures
+- [Dynamic Array](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/datastructures/ArrayList.java)
+- A dynamic array is an array with automatic resizing. A dynamic array expands as you add more elements. So you don't need to determine the size ahead of time.
