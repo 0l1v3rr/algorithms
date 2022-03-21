@@ -41,3 +41,5 @@ My implementation of different Data Structures, Algorithms and simple coding cha
   - A dynamic array is an array with automatic resizing. A dynamic array expands as you add more elements. So you don't need to determine the size ahead of time.
 - [Linked List](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/datastructures/LinkedList.java)
   - A linked list is a sequence of data structures, which are connected together via links. Linked List is a sequence of links which contains items. Each link contains a connection to another link.
+- [Stack](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/datastructures/Stack.java)
+  - A Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
