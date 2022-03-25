@@ -23,6 +23,9 @@ My implementation of different Data Structures, Algorithms and simple coding cha
 - [Heap Sort](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/sorting/HeapSort.java)
   - Heap sort is a comparison-based sorting technique based on Binary Heap data structure. It is similar to selection sort where we first find the minimum element and place the minimum element at the beginning. We repeat the same process for the remaining elements.
   - **O(n*log(n))**
+- [Counting Sort](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/sorting/CountingSort.java)
+  - Counting sort is a sorting algorithm that sorts the elements of an array by counting the number of occurrences of each unique element in the array. The count is stored in an auxiliary array and the sorting is done by mapping the count as an index of the auxiliary array.
+  - **O(n+k)**
 
 ### Searching
 
