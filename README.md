@@ -51,3 +51,4 @@ My implementation of different Data Structures, Algorithms and simple coding cha
 
 ## Other
 - [Valid Parentheses](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/other/ValidParentheses.java)
+- [Look And Say](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/other/LookAndSay.java)
