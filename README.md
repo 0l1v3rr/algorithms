@@ -48,3 +48,6 @@ My implementation of different Data Structures, Algorithms and simple coding cha
   - A Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
 - [Queue](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/datastructures/Queue.java)
   - A Queue is a linear structure which follows a particular order in which the operations are performed. The order is First In First Out (FIFO).
+
+## Other
+- [Valid Parentheses](https://github.com/0l1v3rr/algorithms/blob/master/src/main/java/com/oliverr/algorithms/other/ValidParentheses.java)
