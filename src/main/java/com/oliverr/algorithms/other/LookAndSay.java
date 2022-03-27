@@ -10,7 +10,7 @@ public class LookAndSay {
             if(number.charAt(i) != number.charAt(firstCharacterPos)) {
                 String digits = number.substring(firstCharacterPos, i);
                 sb.append(digits.length()).append(number.charAt(firstCharacterPos));
-                firstCharacterPos = 1;
+                firstCharacterPos = i;
             }
         }
         sb.append(number.substring(firstCharacterPos, number.length()).length()).append(number.charAt(firstCharacterPos));
