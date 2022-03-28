@@ -24,6 +24,21 @@ public class LinkedList<T> implements Iterable<T> {
         return size;
     }
 
+    public void reverse() {
+        Node<T> node = null;
+        Node<T> current = head;
+        while(current != null) {
+            node = current.previous;
+            current.previous = current.next;
+            current.next = node;
+            current = current.previous;
+        }
+
+        if(node != null) {
+            head = node.previous;
+        }
+    }
+
     public void clear() {
         Node<T> node = head;
         while(node != null) {
@@ -105,6 +120,17 @@ public class LinkedList<T> implements Iterable<T> {
     
     public boolean contains(T data) {
         return indexOf(data) != -1;
+    }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("[ ");
+        for(T data : this) {
+            sb.append(data + " ");
+        }
+        sb.append("]");
+        return sb.toString();
     }
 
     @Override
